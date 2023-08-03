@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- link de descripcion web -->
+    <meta name="description" content="Bright Style es una estetica vehicular ubicada en Rio Negro - Cipolletti">
+    <!-- link de palabras clave -->
+    <meta name="keywords" content="Estetica vehicular, Bright Style, vehiculos, autos, camionetas, limpieza, cipolletti, rio negro">
+    <!-- link de bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <!-- link para AOS animate -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- link de archivo css -->
+    <link rel="stylesheet" href="../css/style.css">
+    <!-- link del icono url -->
+    <link rel="icon" href="../assets/img/LOGO.webp">
+    <title> Productos </title>
+</head>
+<body>
+    <!-- Barra de navegacion -->
+    <header class="fondoOscuro d-flex justify-content-center fixed-top">
+        <nav class="navbar navbar-expand-lg m-2">
+            <div class="container-fluid d-flex align-items-end justify-content-center fondoOscuro">
+                <!-- nav desplegable -->
+                <button class="navbar-toggler bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <!-- elementos del nav -->
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 d-flex align-items-center justify-content-center">
+                    <li class="nav-item px-5">
+                        <a class="nav-link active text-white" aria-current="page" href="../pages/productos.html"><button type="button" class="btn btn-outline-light">Productos</button></a>
+                      </li>
+                      <li>
+                        <a class="navbar-brand" href="../index.html">
+                            <img src="../assets/img/LOGOHD.png" height="55px"width="120px">
+                        </a> 
+                      </li>
+                      <li class="nav-item px-5">
+                        <a class="nav-link active text-white" aria-current="page" href="../pages/servicios.html"><button type="button" class="btn btn-outline-light">Servicios</button></a>
+                      </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+
+    <main class="fondoOscuro hidden">
+        <div>
+            <h1 class="fondoOscuro m-4" style="height: 4vh;"></h1>
+        </div>
+       <section class="d-flex centrar fondoOscuro texto">
+            <div>
+                <h1> Productos </h1>
+            </div>
+       </section>
+
+       <!-- busqueda y ordenar tipo -->
+       <section class="d-flex justify-content-evenly bg-black">
+            <div>
+                <label for="buscar"></label>
+                <input type="search" placeholder="Buscar" style="width: 20vh;" class="border rounded">
+            </div>
+            <div>
+                <label for="ordenar"></label>
+                <input type="search " placeholder="Ordenar por tipo" style="width: 20vh;" class="border rounded">
+            </div>
+       </section>
+       <!-- seccion de imagenes, fotos y descripcion -->
+        <section class="fondoOscuro">
+            <article class="d-flex justify-content-center m-4 zoomProductos" style="max-width: 100%;" data-aos="fade-right">
+                    <div class="card mb-3" style="max-width: 750px;" id="lavaautos">
+                            <div class="row g-0">
+                              <div class="col-md-4">
+                                <img src="../assets/img/lavaautos.webp" class="img-fluid" style="width: 100%;" alt="...">
+                              </div>
+                              <div class="col-md-8">
+                                <div class="card-body">
+                                  <h5 class="card-title">Lava autos</h5>
+                                  <p class="card-text justificar-texto">
+                                    Producto estrella de la marca, posee un gran contenido de sílice que potencia el brillo y sella 
+                                    la superficie. PH neutro y alto poder espumógeno. Apto para superficies con tratamiento.</div>
+                              </div>
+                            </div>
+                    </div>
+            </article>
+
+            <article class="d-flex justify-content-center m-4 zoomProductos" style="max-width: 100%;" data-aos="fade-right">
+                    <div class="card mb-3" style="max-width: 750px;" id="ceraliquida">
+                            <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="../assets/img/ceraLiquida.webp" class="img-fluid" style="width: 100%;" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                <h5 class="card-title">Cera liquida</h5>
+                                <p class="card-text justificar-texto">
+                                    Quick Detail elaborado con un gran porcentaje de cera de carnauba, otorga brillo con efecto húmedo y protege la superficie 
+                                    del vehículo.  Recomendado para mantenimiento de acrílicos.</div>
+                            </div>
+                            </div>
+                    </div>
+            </article>
+
+            <article class="d-flex justify-content-center m-4 zoomProductos" style="max-width: 100%;" data-aos="fade-right">
+                <div class="card mb-3" style="max-width: 750px;" id="limpiadores">
+                    <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="../assets/img/limpiadoresVidrio.webp" class="img-fluid" style="width: 100%;" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                        <h5 class="card-title">Limpiadores</h5>
+                        <p class="card-text justificar-texto">
+                            Limpiador con agentes anti-fog que previene el empañado de vidrios. Posee propiedades desengrasantes que brindan una máxima remoción sin esfuerzo.
+                            Fórmula con fragancia a limón.
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </article>
+
+            <article class="d-flex justify-content-center m-4 zoomProductos" style="max-width: 100%;" data-aos="fade-right">
+                <div class="card mb-3" style="max-width: 750px;" id="exteriores1">
+                    <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="../assets/img/ceraNeumaticos.webp" class="img-fluid" style="width: 100%;" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                        <h5 class="card-title">Exteriores</h5>
+                        <p class="card-text justificar-texto">
+                            Restaura y reacondiciona plásticos y gomas del exterior dejando una terminación satinada. No daña ni deteriora la superficie. Posee 
+                            pigmentos negros con aroma a café.
+                        </p>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </article>
+
+            <article class="d-flex justify-content-center m-4 zoomProductos" style="max-width: 100%;" data-aos="fade-right">
+                <div class="card mb-3" style="max-width: 750px;" id="exteriores2">
+                    <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="../assets/img/acondicionadorCubiertas.webp" class="img-fluid" style="width: 100%;" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                        <h5 class="card-title">Exteriores</h5>
+                        <p class="card-text justificar-texto">
+                            Acondicionador de cubiertas por excelencia. Producto elaborado a base de silicona de alta duración y rendimiento que otorga una 
+                            terminación brillante en la superficie.</div>
+                    </div>
+                    </div>
+                </div>
+            </article>
+
+            <article class="d-flex justify-content-center m-4 zoomProductos" style="max-width: 100%;" data-aos="fade-right">
+                <div class="card mb-3" style="max-width: 750px;" id="interiores1">
+                    <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="../assets/img/acondicionadorPlasticos1.webp" class="img-fluid" style="width: 100%;" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                        <h5 class="card-title">Interiores</h5>
+                        <p class="card-text justificar-texto">
+                            Acondicionador cremoso de plásticos interiores con terminación satinada y aroma a banana dulce. Brinda protección contra Rayos 
+                            UV y disminuye el deterioro de superficies.</div>
+                    </div>
+                    </div>
+                </div>
+            </article>
+
+            <article class="d-flex justify-content-center m-4 zoomProductos" style="max-width: 100%;" data-aos="fade-right">
+                <div class="card mb-3" style="max-width: 750px;" id="interiores2">
+                    <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="../assets/img/acondicionadorPlasticos2.webp" class="img-fluid" style="width: 100%;" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                        <h5 class="card-title">Interiores</h5>
+                        <p class="card-text justificar-texto">
+                            Acondicionador de plásticos interiores con terminación satinada y aroma a frutilla. Brinda protección contra Rayos 
+                            UV y disminuye el deterioro de superficies.</div>
+                    </div>
+                    </div>
+                </div>
+            </article>
+
+            <article class="d-flex justify-content-center m-4 zoomProductos" style="max-width: 100%;" data-aos="fade-right">
+                <div class="card mb-3" style="max-width: 1000px;" id="perfumes">
+                        <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="../assets/img/fragancia.webp" class="img-fluid" style="width: 100%;" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                            <h5 class="card-title">Perfumes</h5>
+                            <p class="card-text justificar-texto">
+                                Fragancias a base de alcohol de 120ml.</p>
+                            </div>
+                        </div>
+                        </div>
+                </div>
+            </article>
+       </section>
+
+        <div>
+          <hr class="my-2" style="border-top: 5px solid white;">
+        </div>
+    </main>
+    <!-- pie de pagina  -->
+    <footer class="bg-black">
+        <div class="container">
+            <div class="row">
+                
+            <div class="col-lg-4 d-flex align-items-center justify-content-center">
+                <div class="text-white text-center m-3">
+                    <h3>Horarios</h3>
+                    <p> Lunes a Viernes de 8am - 18pm <br> Sabado de 9am - 18pm</p>
+                    <nav>
+                        <a class="textoLink" href="https://www.google.com/search?client=opera-gx&q=bright+style&sourceid=opera&ie=UTF-8&oe=UTF-8">
+                            <p> Buenos Aires 831 - Rio Negro / Cipolletti</p>
+                        </a>
+                    </nav>
+                </div>
+            </div>
+            <div class="col-lg-4 d-flex align-items-center justify-content-center">
+                <div class="text-white text-center">
+                    <h3> Redes sociales </h3>
+                        <nav>
+                            <img src="../assets/img/whatsapp.svg" alt="" height="15px" width="15px">
+                            <a class="textoLink" href="https://w.app/BrightStyle"> Whatsapp </a>
+                        </nav>
+
+                        <nav>
+                            <img src="../assets/img/instagram.svg" alt=""height="15px" width="15px">
+                            <a class="textoLink" href="https://www.instagram.com/bright_.styles/">Instagram</a>
+                        </nav>
+                            
+                        <nav>
+                            <img src="../assets/img/facebook.svg" alt=""height="15px" width="15px">
+                            <a class="textoLink" href="direccionFa">Facebook</a>
+                        </nav>
+
+                        <nav>
+                            <img src="../assets/img/mail.svg" alt=""height="15px" width="15px">
+                            <a class="textoLink" href="brightstyles.detailing@gmail.com">Correo electronico</a>
+                        </nav>
+                </div>
+                
+            </div>
+            <div class="col-lg-4">
+                <a href="../index.html"><img src="../assets/img/LOGOHD.png" alt="" class="img-fluid" ></a>
+            </div>
+            </div>
+        </div>
+
+        
+
+        <p class="d-flex bg-white justify-content-center m-0"> @2023 by bright_styles | Aviso legal </p>
+    </footer>
+    <!-- integracion de bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <!-- integracion de AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- inicializacion de AOS -->
+    <script>
+        AOS.init();
+    </script>
+    </body>
+</html>

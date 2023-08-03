@@ -1,0 +1,17 @@
+@media (min-width: 1280px) {
+    .zoomServicios:hover {
+        transform: scale(1.25,1.25);
+    }
+}
+
+@media (min-width: 1280px) {
+    .zoomProductos:hover {
+      transform: scale(1.10, 1.10);
+    }
+}
+
+@media (min-width: 1280px) {
+    .zoomPreguntas:hover {
+      transform: scale(1.05, 1.15);
+    }
+}

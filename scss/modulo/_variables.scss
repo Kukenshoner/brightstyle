@@ -1,0 +1,93 @@
+.textoLink {
+    color: white;
+    text-decoration: none;
+}
+
+.textoLinkCads {
+    color: rgb(3, 3, 3);
+    text-decoration: none;
+}
+            
+.texto {
+    color: white;
+}
+
+.fondoOscuro {
+    background-color: rgb(2, 2, 2);
+}
+                            
+.fondoClaro {
+    background-color: white;
+}
+                                    
+.divisiones {
+    border-top: 2px solid white;
+}
+
+.centrar {
+justify-content: center;
+align-items: center;
+}
+
+.linea {
+    display: inline;
+}
+                             
+.hidden {
+    overflow: hidden;
+}
+  
+.wrap {
+    flex-wrap: wrap;
+}
+  
+.textoImagen {
+    font-weight: 700;
+}
+
+.justificar-texto {
+    text-align: justify;
+}
+
+.bordeImagen {
+    border-radius: 20px;
+}
+
+.variasFilas {
+    flex-wrap: wrap;
+}
+
+
+.textoNegrita {
+    font-weight: bold;
+  font-size: 14px; /* Ajusta el tamaño de la fuente según tus preferencias */
+  color: rgb(255, 255, 255);
+  background-color: black;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+@media (max-width: 1000px) {
+    .buscar {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      
+    }
+}
+@media (min-width: 1000px) {
+    .buscar {
+      padding-left: 100px;
+    }
+}
+@media (min-width: 1200px) {
+    .buscar {
+      padding-left: 150px;
+    }
+}
+
+@media (max-width: 700px) {
+    .textoImagenn {
+        font-size: 10px;
+    }
+  }
