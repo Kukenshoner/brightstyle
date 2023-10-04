@@ -9,30 +9,31 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="../css/style.css">
-    <link rel="icon" href="../assets/img/LOGO.webp">
+    <link rel="icon" href="../assets/img/logo.png">
     <title> Servicios </title>
 </head>
 <body>
     <header class="fondoOscuro d-flex justify-content-center fixed-top">
         <nav class="navbar navbar-expand-lg m-2">
             <div class="container-fluid d-flex align-items-end justify-content-center fondoOscuro">
+                <!-- nav desplegable -->
                 <button class="navbar-toggler bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
                 </button>
-
+                <!-- elementos del nav -->
               <div class="collapse navbar-collapse m-3" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0 d-flex align-items-center justify-content-center">
-                    <li class="nav-item px-5">
-                        <a class="nav-link active text-white" aria-current="page" href="../pages/productos.html"><button type="button" class="btn btn-outline-light">Productos</button></a>
-                      </li>
-                      <li>
-                        <a class="" href="../index.html">
-                            <img src="../assets/img/logo (2).png" height="80px"width="80px">
-                        </a> 
-                      </li>
-                      <li class="nav-item px-5">
-                        <a class="nav-link active text-white" aria-current="page" href="../pages/servicios.html"><button type="button" class="btn btn-outline-light">Servicios</button></a>
-                      </li>
+                  <li class="nav-item px-5">
+                    <a class="nav-link active text-white" aria-current="page" href="../pages/productos.html"><button type="button" class="btn btn-outline-light">Productos</button></a>
+                  </li>
+                  <li>
+                    <a class="" href="../index.html">
+                        <img src="../assets/img/LOGO.png" height="90px"width="130px">
+                    </a> 
+                  </li>
+                  <li class="nav-item px-5">
+                    <a class="nav-link active text-white" aria-current="page" href="../pages/servicios.html"><button type="button" class="btn btn-outline-light">Servicios</button></a>
+                  </li>
                 </ul>
               </div>
             </div>
@@ -48,129 +49,126 @@
                  <h1> Servicios </h1>
              </div>
         </section>
-
-        <section>
-            <div class="bg-black buscar">
-                <label for="buscar"></label>
-                <input type="text" placeholder="Buscar" class="border rounded">
+        <article>
+            <div>
+                <hr class="my-2" style="border-top: 5px solid white;">    
             </div>
-        </section>
+        </article>
 
         <section>
             <article class="bg-black">
                 <div class="row d-flex justify-content-evenly align-items-center">
-                    <div class="card m-5" style="width: 43vh; height: auto;" id="interioresservicios" data-aos="fade-up" id="limpiezainteriores">
-                        <img src="../assets/img/interiores1.jpeg" class="card-img-top" alt="...">
+                    <div class="card m-5 p-2" style="width: 43vh; height: auto;" id="interioresservicios" data-aos="fade-up" id="limpiezainteriores">
+                        <img src="../assets/img/interior3.png" class="card-img-top zoomServicios" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Limpieza interiores</h5>
-                            <p class="card-text justificar-texto">Incluye limpieza profunda, aspirado minucioso, acondicionamiento de plásticos y cuero, limpieza y 
-                                tratamiento de cristales, eliminación de olores y detalles finales para lograr un interior impecable y confortable.</p>
-                            <a href="https://api.whatsapp.com/send?phone=5492994278644&text=%C2%A1Hola!%20Me%20gustar%C3%ADa%20obtener%20m%C3%A1s%20informaci%C3%B3n%20sobre%20los%20servicios%20que%20ofrecen%20y%20conocer%20la%20disponibilidad%20para%20agendar%20un%20turno." class="btn btn-outline-dark d-flex justify-content-center m-2">Auto: $18.000</a>
-                            <a href="https://api.whatsapp.com/send?phone=5492994278644&text=%C2%A1Hola!%20Me%20gustar%C3%ADa%20obtener%20m%C3%A1s%20informaci%C3%B3n%20sobre%20los%20servicios%20que%20ofrecen%20y%20conocer%20la%20disponibilidad%20para%20agendar%20un%20turno." class="btn btn-outline-dark d-flex justify-content-center m-2">Camioneta: $20.000</a>
+                            <p class="card-text justificar-texto">Limpieza de techo, plasticos blancos, plásticos negros, toberas de aire, tapizados, rieles, piso, pedaleras, burletes y bisagras
+                                Limpieza completa del baúl y zona de rueda de auxilio
+                                Acondicionado de plásticos y cubierta de auxilio</p>
+                            <a href="https://api.whatsapp.com/send?phone=5492994278644&text=%C2%A1Hola!%20Me%20gustar%C3%ADa%20obtener%20m%C3%A1s%20informaci%C3%B3n%20sobre%20los%20servicios%20que%20ofrecen%20y%20conocer%20la%20disponibilidad%20para%20agendar%20un%20turno." class="btn btn-outline-dark d-flex justify-content-center m-2"> Precios al Whatsapp </a>
                         </div>
                     </div>
                         
-                    <div class="card m-5" style="width: 43vh; height: auto;" id="lavadopremiumservicios" data-aos="fade-up">
-                        <img src="../assets/img/lavadopremium10.jpeg" class="card-img-top" alt="...">
+                    <div class="card m-5 p-2" style="width: 43vh; height: auto;" id="lavadopremiumservicios" data-aos="fade-up">
+                        <img src="../assets/img/premium1.png" class="card-img-top zoomServicios" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Lavado premium</h5>
-                            <p class="card-text justificar-texto">Incluye un lavado a mano con shampoo especial y ph balanceado, limpieza minuciosa de llantas y pasos de rueda, aspirado profundo del interior, 
-                                limpieza de cristales y espejos, y acondicionamiento de plásticos y cuero.</p>
-                            <a href="https://api.whatsapp.com/send?phone=5492994278644&text=%C2%A1Hola!%20Me%20gustar%C3%ADa%20obtener%20m%C3%A1s%20informaci%C3%B3n%20sobre%20los%20servicios%20que%20ofrecen%20y%20conocer%20la%20disponibilidad%20para%20agendar%20un%20turno." class="btn btn-outline-dark d-flex justify-content-center m-2">Moto: $3.500</a>
-                            <a href="https://api.whatsapp.com/send?phone=5492994278644&text=%C2%A1Hola!%20Me%20gustar%C3%ADa%20obtener%20m%C3%A1s%20informaci%C3%B3n%20sobre%20los%20servicios%20que%20ofrecen%20y%20conocer%20la%20disponibilidad%20para%20agendar%20un%20turno." class="btn btn-outline-dark d-flex justify-content-center m-2">Auto: $6.000</a>
-                            <a href="https://api.whatsapp.com/send?phone=5492994278644&text=%C2%A1Hola!%20Me%20gustar%C3%ADa%20obtener%20m%C3%A1s%20informaci%C3%B3n%20sobre%20los%20servicios%20que%20ofrecen%20y%20conocer%20la%20disponibilidad%20para%20agendar%20un%20turno." class="btn btn-outline-dark d-flex justify-content-center m-2">Camioneta: $7.000</a>
+                            <p class="card-text justificar-texto">Aspirado
+                                Acondicionado de plásticos exteriores e interiores, pintura, pasa ruedas, cubiertas, llantas y alfombras
+                                Limpieza de vidrios, aberturas, burletes
+                                y tapa de nafta</p>
+                            <a href="https://api.whatsapp.com/send?phone=5492994278644&text=%C2%A1Hola!%20Me%20gustar%C3%ADa%20obtener%20m%C3%A1s%20informaci%C3%B3n%20sobre%20los%20servicios%20que%20ofrecen%20y%20conocer%20la%20disponibilidad%20para%20agendar%20un%20turno." class="btn btn-outline-dark d-flex justify-content-center m-2"> Precios al Whatsapp </a>
                         </div>
                     </div>
                     
-                    <div class="card m-5" style="width: 43vh; height: auto;" id="pulidodeopticasservicios" data-aos="fade-up">
-                        <img src="../assets/img/opticalimpiaderecha1copia.jpeg" class="card-img-top" alt="...">
+                    <div class="card m-5 p-2" style="width: 43vh; height: auto;" id="pulidodeopticasservicios" data-aos="fade-up">
+                        <img src="../assets/img/opticas1.png" class="card-img-top zoomServicios" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Pulido de opticas</h5>
-                            <p class="card-text justificar-texto"> Mejorar la claridad y apariencia de las luces de tu vehículo. Mediante un proceso de lijado con lija al agua y el uso de pads, corregimos 
-                                imperfecciones y rayas en las ópticas, permitiendo una mayor transparencia y brillo.</p>
-                            <a href="https://api.whatsapp.com/send?phone=5492994278644&text=%C2%A1Hola!%20Me%20gustar%C3%ADa%20obtener%20m%C3%A1s%20informaci%C3%B3n%20sobre%20los%20servicios%20que%20ofrecen%20y%20conocer%20la%20disponibilidad%20para%20agendar%20un%20turno." class="btn btn-outline-dark d-flex justify-content-center m-2">Auto: $12.000</a>
-                            <a href="https://api.whatsapp.com/send?phone=5492994278644&text=%C2%A1Hola!%20Me%20gustar%C3%ADa%20obtener%20m%C3%A1s%20informaci%C3%B3n%20sobre%20los%20servicios%20que%20ofrecen%20y%20conocer%20la%20disponibilidad%20para%20agendar%20un%20turno." class="btn btn-outline-dark d-flex justify-content-center m-2">Camioneta: $12.000</a>
+                            <p class="card-text justificar-texto"> Lijado, pulido y refinado de ópticas delanteras 
+                                Abrillantado de ópticas traseras 
+                                Sellador de todas las ópticas </p>
+                            <a href="https://api.whatsapp.com/send?phone=5492994278644&text=%C2%A1Hola!%20Me%20gustar%C3%ADa%20obtener%20m%C3%A1s%20informaci%C3%B3n%20sobre%20los%20servicios%20que%20ofrecen%20y%20conocer%20la%20disponibilidad%20para%20agendar%20un%20turno." class="btn btn-outline-dark d-flex justify-content-center m-2"> Precios al Whatsapp </a>
                         </div>
                     </div>
 
-                    <div class="card m-5" style="width: 43vh; height: auto;" id="tratamientoceramicoservicios" data-aos="fade-up">
-                        <img src="../assets/img/Inkedlavadomotor3_LI.jpg" class="card-img-top" alt="...">
+                    <div class="card m-5 p-2" style="width: 43vh; height: auto;" id="tratamientoceramicoservicios" data-aos="fade-up">
+                        <img src="../assets/img/lavadomotor1.png" class="card-img-top zoomServicios" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Limpieza de motor</h5>
-                            <p class="card-text justificar-texto"> El lavado de motor es una tarea esencial para el mantenimiento del vehículo, asegurando un rendimiento óptimo y prolongando 
-                                la vida útil del motor al eliminar la suciedad y los residuos acumulados.</p>
-                            <a href="https://api.whatsapp.com/send?phone=5492994278644&text=%C2%A1Hola!%20Me%20gustar%C3%ADa%20obtener%20m%C3%A1s%20informaci%C3%B3n%20sobre%20los%20servicios%20que%20ofrecen%20y%20conocer%20la%20disponibilidad%20para%20agendar%20un%20turno." class="btn btn-outline-dark d-flex justify-content-center m-2">Auto: $9.500</a>
-                            <a href="https://api.whatsapp.com/send?phone=5492994278644&text=%C2%A1Hola!%20Me%20gustar%C3%ADa%20obtener%20m%C3%A1s%20informaci%C3%B3n%20sobre%20los%20servicios%20que%20ofrecen%20y%20conocer%20la%20disponibilidad%20para%20agendar%20un%20turno." class="btn btn-outline-dark d-flex justify-content-center m-2">Camioneta: $10.500</a>
+                            <p class="card-text justificar-texto"> Se realiza con cepillos, desengrasante y vapor, para una limpieza más segura a la hora de trabajar en los conectores
+                                , computadora, alternador, etc. Y un acondicionado general de plásticos y mangueras. (Se procede a la limpieza de las áreas del motor a las cuales tengamos acceso)</p>
+                            <a href="https://api.whatsapp.com/send?phone=5492994278644&text=%C2%A1Hola!%20Me%20gustar%C3%ADa%20obtener%20m%C3%A1s%20informaci%C3%B3n%20sobre%20los%20servicios%20que%20ofrecen%20y%20conocer%20la%20disponibilidad%20para%20agendar%20un%20turno." class="btn btn-outline-dark d-flex justify-content-center m-2"> Precios al Whatsapp </a>
                         </div>
                     </div>
 
-                    <div class="card m-5" style="width: 43vh; height: auto;" id="tratamientoceramicoservicios" data-aos="fade-up">
-                        <img src="../assets/img/abrillantado4.jpeg" class="card-img-top" alt="...">
+                    <div class="card m-5 p-2" style="width: 43vh; height: auto;" id="tratamientoceramicoservicios" data-aos="fade-up">
+                        <img src="../assets/img/abrillantado1.png" class="card-img-top zoomServicios" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Abrillantado</h5>
-                            <p class="card-text justificar-texto"> Es un proceso de cuidado y embellecimiento para superficies. 
-                                El abrillantado ayuda a eliminar pequeñas imperfecciones y arañazos leves, además de proporcionar una capa 
-                                protectora que puede aumentar la durabilidad de la pintura y mantener el vehículo con una apariencia impecable y atractiva.</p>
-                            <a href="https://api.whatsapp.com/send?phone=5492994278644&text=%C2%A1Hola!%20Me%20gustar%C3%ADa%20obtener%20m%C3%A1s%20informaci%C3%B3n%20sobre%20los%20servicios%20que%20ofrecen%20y%20conocer%20la%20disponibilidad%20para%20agendar%20un%20turno." class="btn btn-outline-dark d-flex justify-content-center m-2">Auto: $45.000</a>
+                            <p class="card-text justificar-texto"> Lavado descontaminante, un paso de máquina de 4 patrones, permitiendo restaurar su brillo y dejando una 
+                                terminación espejo durante 12 meses (sin correcion de rayas) acondicionado de plásticos interiores y aspirado, acondicionado de 
+                                cubiertas pasa ruedas, plásticos exteriores y limpieza de vidrios. </p>
+                            <a href="https://api.whatsapp.com/send?phone=5492994278644&text=%C2%A1Hola!%20Me%20gustar%C3%ADa%20obtener%20m%C3%A1s%20informaci%C3%B3n%20sobre%20los%20servicios%20que%20ofrecen%20y%20conocer%20la%20disponibilidad%20para%20agendar%20un%20turno." class="btn btn-outline-dark d-flex justify-content-center m-2"> Precios al Whatsapp </a>
                         </div>
                     </div>
 
-                    <div class="card m-5" style="width: 43vh; height: auto;" id="ploteadosservicios" data-aos="fade-up">
-                        <img src="../assets/img/limpiezatapizados1.jpeg" class="card-img-top" alt="...">
+                    <div class="card m-5 p-2" style="width: 43vh; height: auto;" id="ploteadosservicios" data-aos="fade-up">
+                        <img src="../assets/img/tapizados1.png" class="card-img-top zoomServicios" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Limpieza de tapizados</h5>
-                            <p class="card-text justificar-texto"> La limpieza de tapizados es un proceso para eliminar suciedad y manchas de los asientos y superficies interiores de un vehículo, dejándolos limpios y frescos. Mejora el aspecto estético y proporciona un ambiente más saludable y confortable para los ocupantes.</p>
-                            <a href="https://api.whatsapp.com/send?phone=5492994278644&text=%C2%A1Hola!%20Me%20gustar%C3%ADa%20obtener%20m%C3%A1s%20informaci%C3%B3n%20sobre%20los%20servicios%20que%20ofrecen%20y%20conocer%20la%20disponibilidad%20para%20agendar%20un%20turno." class="btn btn-outline-dark d-flex justify-content-center m-2">5 asientos: $9.000</a>
-                            <a href="https://www.instagram.com/bright_.styles/" class="btn btn-outline-dark d-flex justify-content-center m-2">7 u 8 asientos: 13.000</a>
+                            <p class="card-text justificar-texto"> Se procede a limpiar la tela con APC (limpiador multi uso) que no daña telas ni superficies 
+                                plásticas y se 
+                                retoca con vapor para una limpieza más eficaz, se limpian los rieles y plásticos con vapor y APC </p>
+                            <a href="https://api.whatsapp.com/send?phone=5492994278644&text=%C2%A1Hola!%20Me%20gustar%C3%ADa%20obtener%20m%C3%A1s%20informaci%C3%B3n%20sobre%20los%20servicios%20que%20ofrecen%20y%20conocer%20la%20disponibilidad%20para%20agendar%20un%20turno." class="btn btn-outline-dark d-flex justify-content-center m-2"> Precios al Whatsapp </a>
                         </div>
                     </div>
     
-                    <div class="card m-5" style="width: 43vh; height: auto;" id="tratamientoacrilicoservicios" data-aos="fade-up">
-                        <img src="../assets/img/proximamente.webp" class="card-img-top" alt="...">
+                    <div class="card m-5 p-2" style="width: 43vh; height: auto;" id="tratamientoacrilicoservicios" data-aos="fade-up">
+                        <img src="../assets/img/proximamente.webp" class="card-img-top zoomServicios" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Tratamiento acrilico</h5>
-                            <p class="card-text justificar-texto"> Incluye una limpieza y preparación meticulosa de la superficie, seguida de la aplicación de un revestimiento acrílico de alta calidad. Este 
-                                recubrimiento forma una capa protectora duradera que protege la pintura contra los elementos externos, como rayos UV, contaminantes y suciedad. Además, el 
-                                Tratamiento Acrílico realza el brillo y la apariencia de la pintura, manteniendo tu vehículo con un acabado impecable durante más tiempo.</p>
-                            <a href="https://api.whatsapp.com/send?phone=5492994278644&text=%C2%A1Hola!%20Me%20gustar%C3%ADa%20obtener%20m%C3%A1s%20informaci%C3%B3n%20sobre%20los%20servicios%20que%20ofrecen%20y%20conocer%20la%20disponibilidad%20para%20agendar%20un%20turno." class="btn btn-outline-dark d-flex justify-content-center m-2">Consultar precio (whatsapp)</a>
+                            <p class="card-text justificar-texto"> Tratamiento acrílico: lavado Descontaminante, corrección de rayas con pad de 
+                                cordero hasta un 95%, refinado con pad (corte medio) y pad (corte bajo). Doble capa de sellador con duración de 
+                                1 año. Acondicionado de plásticos Interiores y aspirado, acondicionado de cubiertas, pasa ruedas, plásticos exteriores y limpieza de vidrios</p>
+                            <a href="https://api.whatsapp.com/send?phone=5492994278644&text=%C2%A1Hola!%20Me%20gustar%C3%ADa%20obtener%20m%C3%A1s%20informaci%C3%B3n%20sobre%20los%20servicios%20que%20ofrecen%20y%20conocer%20la%20disponibilidad%20para%20agendar%20un%20turno." class="btn btn-outline-dark d-flex justify-content-center m-2"> Precios al Whatsapp </a>
                             <a href="https://www.instagram.com/bright_.styles/" class="btn btn-outline-dark d-flex justify-content-center m-2">Consultar precio (instagram)</a>
                         </div>
                     </div>
     
-                    <div class="card m-5" style="width: 43vh; height: auto;" id="tratamientoceramicoservicios" data-aos="fade-up">
-                        <img src="../assets/img/proximamente.webp" class="card-img-top" alt="...">
+                    <div class="card m-5 p-2" style="width: 43vh; height: auto;" id="tratamientoceramicoservicios" data-aos="fade-up">
+                        <img src="../assets/img/proximamente.webp" class="card-img-top zoomServicios" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Tratamiento ceramico</h5>
-                            <p class="card-text justificar-texto"> Es un proceso avanzado de protección para la pintura de tu vehículo. Aplicamos un recubrimiento de cerámica de alta calidad 
-                                que se fusiona con la pintura, formando una capa protectora excepcionalmente resistente. Este recubrimiento proporciona una protección duradera 
-                                contra arañazos, manchas, oxidación y los efectos del ambiente. Además, realza el brillo y la apariencia de la pintura, otorgando un acabado 
-                                deslumbrante y una estética mejorada a tu vehículo.</p>
-                            <a href="https://api.whatsapp.com/send?phone=5492994278644&text=%C2%A1Hola!%20Me%20gustar%C3%ADa%20obtener%20m%C3%A1s%20informaci%C3%B3n%20sobre%20los%20servicios%20que%20ofrecen%20y%20conocer%20la%20disponibilidad%20para%20agendar%20un%20turno." class="btn btn-outline-dark d-flex justify-content-center m-2">Consultar precio (whatsapp)</a>
+                            <p class="card-text justificar-texto"> Tratamiento ceramico: lavado Descontaminante, corrección de rayas con pad de 
+                                cordero hasta un 95%, refinado con pad (corte medio) y pad (corte bajo). Doble capa de sellador con duración de 
+                                2 años. Acondicionado de plásticos Interiores y aspirado, acondicionado de cubiertas, pasa ruedas, plásticos exteriores y limpieza de vidrios</p>
+                            <a href="https://api.whatsapp.com/send?phone=5492994278644&text=%C2%A1Hola!%20Me%20gustar%C3%ADa%20obtener%20m%C3%A1s%20informaci%C3%B3n%20sobre%20los%20servicios%20que%20ofrecen%20y%20conocer%20la%20disponibilidad%20para%20agendar%20un%20turno." class="btn btn-outline-dark d-flex justify-content-center m-2"> Precios al Whatsapp </a>
                             <a href="https://www.instagram.com/bright_.styles/" class="btn btn-outline-dark d-flex justify-content-center m-2">Consultar precio (instagram)</a>
                         </div>
                     </div>
     
-                    <div class="card m-5" style="width: 43vh; height: auto;" id="ploteadosservicios" data-aos="fade-up">
-                        <img src="../assets/img/proximamente.webp" class="card-img-top" alt="...">
+                    <div class="card m-5 p-2" style="width: 43vh; height: auto;" id="ploteadosservicios" data-aos="fade-up">
+                        <img src="../assets/img/proximamente.webp" class="card-img-top zoomServicios" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Ploteados</h5>
                             <p class="card-text justificar-texto"> Una forma versátil y creativa de personalizar y proteger la apariencia de tu vehículo. Utilizamos materiales de alta calidad 
                                 para aplicar vinilos adhesivos en diferentes áreas del automóvil, como la carrocería, techos o capó. Los ploteados pueden ser de diversos 
                                 colores, texturas y diseños, permitiéndote expresar tu estilo único. Además de la personalización estética, los ploteados también protegen 
                                 la pintura original contra rayones y otros daños leves.</p>
-                            <a href="https://api.whatsapp.com/send?phone=5492994278644&text=%C2%A1Hola!%20Me%20gustar%C3%ADa%20obtener%20m%C3%A1s%20informaci%C3%B3n%20sobre%20los%20servicios%20que%20ofrecen%20y%20conocer%20la%20disponibilidad%20para%20agendar%20un%20turno." class="btn btn-outline-dark d-flex justify-content-center m-2">Consultar precio (whatsapp)</a>
+                            <a href="https://api.whatsapp.com/send?phone=5492994278644&text=%C2%A1Hola!%20Me%20gustar%C3%ADa%20obtener%20m%C3%A1s%20informaci%C3%B3n%20sobre%20los%20servicios%20que%20ofrecen%20y%20conocer%20la%20disponibilidad%20para%20agendar%20un%20turno." class="btn btn-outline-dark d-flex justify-content-center m-2"> Precios al Whatsapp </a>
                             <a href="https://www.instagram.com/bright_.styles/" class="btn btn-outline-dark d-flex justify-content-center m-2">Consultar precio (instagram)</a>
                         </div>
                     </div>
 
-                    <div class="card m-5" style="width: 43vh; height: auto;" id="ploteadosservicios" data-aos="fade-up">
-                        <img src="../assets/img/proximamente.webp" class="card-img-top" alt="...">
+                    <div class="card m-5 p-2" style="width: 43vh; height: auto;" id="ploteadosservicios" data-aos="fade-up">
+                        <img src="../assets/img/proximamente.webp" class="card-img-top zoomServicios" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Polarizados</h5>
                             <p class="card-text justificar-texto"> Proporcionan mayor privacidad, reducen el resplandor y protegen contra los dañinos rayos UV. Además, contribuyen 
                                 a mantener una temperatura interior más fresca y brindan mayor seguridad al reducir el riesgo de rotura de vidrios. Los polarizados son una solución 
                                 versátil y efectiva que mejora la comodidad, seguridad y eficiencia energética, tanto en vehículos como en edificios.</p>
-                            <a href="https://api.whatsapp.com/send?phone=5492994278644&text=%C2%A1Hola!%20Me%20gustar%C3%ADa%20obtener%20m%C3%A1s%20informaci%C3%B3n%20sobre%20los%20servicios%20que%20ofrecen%20y%20conocer%20la%20disponibilidad%20para%20agendar%20un%20turno." class="btn btn-outline-dark d-flex justify-content-center m-2">Consultar precio (whatsapp)</a>
+                            <a href="https://api.whatsapp.com/send?phone=5492994278644&text=%C2%A1Hola!%20Me%20gustar%C3%ADa%20obtener%20m%C3%A1s%20informaci%C3%B3n%20sobre%20los%20servicios%20que%20ofrecen%20y%20conocer%20la%20disponibilidad%20para%20agendar%20un%20turno." class="btn btn-outline-dark d-flex justify-content-center m-2"> Precios al Whatsapp </a>
                             <a href="https://www.instagram.com/bright_.styles/" class="btn btn-outline-dark d-flex justify-content-center m-2">Consultar precio (instagram)</a>
                         </div>
                     </div>
@@ -207,7 +205,7 @@
                             <img src="../assets/img/whatsapp.svg" alt="" height="25px" width="25px" class="m-2">
                             <a class="textoLink" href="https://api.whatsapp.com/send?phone=5492994278644&text=%C2%A1Hola!%20Me%20gustar%C3%ADa%20obtener%20m%C3%A1s%20informaci%C3%B3n%20sobre%20los%20servicios%20que%20ofrecen%20y%20conocer%20la%20disponibilidad%20para%20agendar%20un%20turno."> Whatsapp </a>
                         </nav>
-    
+
                         <nav>
                             <img src="../assets/img/instagram.svg" alt=""height="25px" width="25px" class="m-2">
                             <a class="textoLink" href="https://www.instagram.com/bright_.styles/">Instagram</a>
@@ -221,7 +219,7 @@
                 
             </div>
             <div class="col-lg-4">
-                <a href="../index.html"><img src="../assets/img/presentacion.png" alt="" class="img-fluid" ></a>
+                <a href="../index.html"><img src="../assets/img/logo.png" alt="" style="width: 30vh;"></a>
             </div>
             </div>
           </div>
@@ -230,11 +228,7 @@
 
         <!-- <header class="fondoOscuro d-flex justify-content-center fixed-top">
         <nav class="navbar navbar-expand-lg m-2"> -->
-        <section>
-            <nav class="fixed-bottom mx-5 my-5">
-                <a class="textoLink" href="https://api.whatsapp.com/send?phone=5492994278644&text=%C2%A1Hola!%20Me%20gustar%C3%ADa%20obtener%20m%C3%A1s%20informaci%C3%B3n%20sobre%20los%20servicios%20que%20ofrecen%20y%20conocer%20la%20disponibilidad%20para%20agendar%20un%20turno."> <img src="../assets/img/whatsapp.svg" alt="" height="50px" width="50px"> </a>
-            </nav>
-        </section>
+        
     </footer>
     <!-- integracion de bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>

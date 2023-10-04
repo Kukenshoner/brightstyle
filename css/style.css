@@ -97,11 +97,13 @@
 @media (min-width: 1280px) {
   .zoomProductos:hover {
     transform: scale(1.1, 1.1);
+    transition: transform 1s;
   }
 }
 @media (min-width: 1280px) {
-  .zoomPreguntas:hover {
-    transform: scale(1.05, 1.15);
+  .zoomServicios:hover {
+    transform: scale(1.05, 1.05);
+    transition: transform 2s;
   }
 }
 header {
