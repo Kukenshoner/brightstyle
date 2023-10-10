@@ -124,42 +124,51 @@ footer {
 /* Estilos para pantallas grandes (mayor a 1024px de ancho) */
 @media (min-width: 1025px) {
   .video-adaptable {
-    width: 100rem;
+    width: 70%;
     height: auto;
-    max-width: 120vh;
+    max-width: 70%;
   }
 }
 
 /* Estilos para pantallas medianas (entre 769px y 1024px de ancho) */
-@media (min-width: 750px) and (max-width: 1024px) {
+@media (min-width: 850px) and (max-width: 1024px) {
   .video-adaptable {
-    width: 80rem;
+    width: 100%;
     height: auto;
-    max-width: 100vh;
+    max-width: 100%;
+  }
+}
+
+/* Estilos para pantallas medianas (entre 769px y 1024px de ancho) */
+@media (min-width: 750px) and (max-width: 850px) {
+  .video-adaptable {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
   }
 }
 
 /* Estilos para pantallas pequeñas (768px o menos de ancho) */
 @media (min-width: 450px) and (max-width: 749px) {
   .video-adaptable {
-    width: 50rem;
+    width: 100%;
     height: auto;
-    max-width: 100vh;
+    max-width: 100%;
   }
 }
 
 /* Estilos para pantallas pequeñas (768px o menos de ancho) */
 @media (min-width: 300px) and (max-width: 449px) {
   .video-adaptable {
-    width: 40rem;
+    width: 100%;
     height: auto;
-    max-width: 100vh;
+    max-width: 100%;
   }
 }
 
 @media (max-width: 370px) {
   .video-adaptable {
-    width: 25rem;
+    width: 100%;
     height: auto;
   }
 }
